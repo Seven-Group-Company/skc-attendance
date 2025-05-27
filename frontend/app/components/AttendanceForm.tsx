@@ -177,7 +177,7 @@ export default function AttendanceForm() {
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-6 md:mb-8"
       >
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-800">SKC Attendance System</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-gray-800">SKCF Attendance System</h1>
         <p className="text-gray-600 mt-1 md:mt-2">Today: {new Date(currentDate).toLocaleDateString()}</p>
         <Link href="/login" className="text-black mt-2 inline-block md:fixed top-4 right-4 bg-white p-2 rounded-full shadow-lg hover:bg-white/30 hover:cursor-pointer hover:top-3.5 duration-200">
         <FaUser size={40} className="inline mr-1 bg-black/20 p-1 text-black rounded-full" />
