@@ -84,8 +84,7 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
           </AnimatePresence>
           <button 
             onClick={() => setIsOpen(!isOpen)}
-            className="p-2 rounded-full hover:bg-gray-800 transition-colors"
-          >
+            className="p-2 rounded-full hover:bg-gray-800 transition-colors">
             {isOpen ? <FaChevronLeft /> : <FaChevronRight />}
           </button>
         </div>
